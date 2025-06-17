@@ -29,11 +29,11 @@
 ###  Efficient Resource Usage
 - Lightweight alternative to virtual machines.
 - Optimized for high-density and small/medium deployments.
+![docker-architecture-ezgif](https://github.com/user-attachments/assets/e805d88d-25dd-4bae-bc68-008748253890)
 
 ##  Docker Architecture
 - Uses a client-server model.
 - Docker client communicates with Docker daemon via REST API.
-![docker-architecture-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/2639831b-d143-46b2-b361-defe37340928)
 
 ###  Docker Daemon (`dockerd`)
 - Handles container/image management and API requests.
