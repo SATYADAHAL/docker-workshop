@@ -73,7 +73,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 - Open powershell as admin.
 - Paste the following command.
 ```bash
-wsl --install -y
+wsl --install
 ```
 ### 3. Install Docker Desktop
 ```bash
