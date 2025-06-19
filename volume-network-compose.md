@@ -12,7 +12,7 @@
   # 2. LabWork - Docker Volume
   - Git clone the repo
     ```bash
-    git clone https://github.com/SATYADAHAL/dockerWorkshop.git
+    git clone https://github.com/SATYADAHAL/docker-workshop
     ```
   - Go to directory `02-docker-Volume`
     ```bash
@@ -53,7 +53,7 @@ Compose works in all environments; production, staging, development, testing, as
 # 3. LabWork - Building with docker.
 - Git clone the repo
     ```bash
-    git clone https://github.com/SATYADAHAL/dockerWorkshop.git
+    git clone https://github.com/SATYADAHAL/docker-workshop/e
     ```
   - Go to directory `03-react-hot-reload`
     ```bash
