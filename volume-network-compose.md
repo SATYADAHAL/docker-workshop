@@ -86,3 +86,34 @@ Compose works in all environments; production, staging, development, testing, as
     docker compose up --build
     ```
   - And open browser and goto `http://localhost:8080`
+
+# Additional Lab
+# 5. LabWork - Run Kali on Browser.
+- Git clone the repo
+    ```bash
+    git clone https://github.com/SATYADAHAL/dockerWorkshop.git
+    ```
+  - Go to directory `05-kali-on-browser`
+    ```bash
+    cd 05-kali-on-browser
+    ```
+  - And the run this command to build the container.
+    ```bash
+    docker compose up --build
+    ```
+  - And open browser and goto `http://localhost:3000`
+
+# 6. LabWork - Wordpress one click setup.
+- Git clone the repo
+    ```bash
+    git clone https://github.com/SATYADAHAL/dockerWorkshop.git
+    ```
+  - Go to directory `06-wordpress-setup`
+    ```bash
+    cd 06-wordpress-setup
+    ```
+  - And the run this command to build the container.
+    ```bash
+    docker compose up --build
+    ```
+  - And open browser and goto `http://localhost:8080`
