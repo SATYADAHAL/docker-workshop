@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  kali-linux:
+    image: lscr.io/linuxserver/kali-linux:latest
+    container_name: kali-linux
+
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Etc/UTC
+      SUBFOLDER: /
+      TITLE: "Kali Linux"
+
+    shm_size: "1gb"
+
+    # This will attempt to set unconfined seccomp, ignored if unsupported
+    security_opt:
+      - seccomp:unconfined
+
+    restart: unless-stopped
+
